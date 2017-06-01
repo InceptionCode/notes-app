@@ -1,0 +1,83 @@
+$ocean: #00C0FF;
+$input-blue: #2196f3;
+
+div#root {
+  margin: 60px;
+  h1 {
+    padding: 5px;
+    border-bottom: 2px solid black;
+  }
+  input.add-tag{
+    margin: 30px 0 50px 170px;
+    padding: 10px;
+    width: 60%;
+  }
+  input[type='text'] {
+    outline: none;
+  }
+  textarea {
+    margin: 10px 0 50px 10px;
+    padding: 40px;
+    width: 100%;
+    outline: none;
+  }
+  button{
+    width: 110px;
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    background-color: $input-blue;
+    color: black;
+    font-size: 16px;
+    &:hover{
+      box-shadow: 3px 10px 3px -5px rgba(0,0,0,0.2);
+    }
+    &:focus{
+      outline: none;
+      box-shadow: 3px 10px 3px -5px rgba(0,0,0,0.2);
+    }
+  }
+  
+  div.Filters{
+    width: 750px;
+    margin: 20px auto;
+    input{
+      width: 470px;
+    }
+  }
+  ul{
+    list-style: none;
+    li{
+      margin-bottom: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    p{
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 8px;
+    }
+    span{
+      position: relative;
+      bottom: 10px;
+      margin-right: 10px;
+      font-size: 18px;
+      color: $ocean;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  #add-tags{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  span.tag{
+    margin-left: 15px;
+    color: $ocean;
+    text-decoration: underline;
+    &:hover{
+      color: $input-blue;
+    }
+  }
+}

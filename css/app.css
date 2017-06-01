@@ -1,0 +1,64 @@
+div#root {
+  margin: 60px; }
+  div#root h1 {
+    padding: 5px;
+    border-bottom: 2px solid black; }
+  div#root input.add-tag {
+    margin: 30px 0 50px 170px;
+    padding: 10px;
+    width: 60%; }
+  div#root input[type='text'] {
+    outline: none; }
+  div#root textarea {
+    margin: 10px 0 50px 10px;
+    padding: 40px;
+    width: 100%;
+    outline: none; }
+  div#root button {
+    width: 110px;
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    background-color: #2196f3;
+    color: black;
+    font-size: 16px; }
+    div#root button:hover {
+      box-shadow: 3px 10px 3px -5px rgba(0, 0, 0, 0.2); }
+    div#root button:focus {
+      outline: none;
+      box-shadow: 3px 10px 3px -5px rgba(0, 0, 0, 0.2); }
+  div#root div.Filters {
+    width: 750px;
+    margin: 20px auto; }
+    div#root div.Filters input {
+      width: 470px; }
+  div#root ul {
+    list-style: none; }
+    div#root ul li {
+      margin-bottom: 5px;
+      padding: 10px;
+      font-size: 16px; }
+    div#root ul p {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 8px; }
+    div#root ul span {
+      position: relative;
+      bottom: 10px;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #00C0FF;
+      text-decoration: underline;
+      cursor: pointer; }
+  div#root #add-tags {
+    font-size: 18px;
+    margin-bottom: 35px; }
+  div#root span.tag {
+    margin-left: 15px;
+    color: #00C0FF;
+    text-decoration: underline; }
+    div#root span.tag:hover {
+      color: #2196f3; }
+
+/*# sourceMappingURL=app.css.map */
