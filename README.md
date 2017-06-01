@@ -1,4 +1,4 @@
-#Notes App
+# Notes App
 This was one of my first major projects created 6 months ago. I recently became reunited with it's code base. I believe it will be great for me and others to review, refactor and learn from old code. 
 I will be frequently updating this old project. If you just wish to view and play around with the app, download or clone the repository. 
 After you do that, simple find the "index.html" file and open it in the browser. You should be good to go. If you wish to contribute or play with the code, you will have to open the folder in your terminal. 
